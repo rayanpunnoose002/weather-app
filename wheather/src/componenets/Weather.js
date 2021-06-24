@@ -37,7 +37,7 @@ function Weather() {
           type="text"
           placeholder="Country"
           name="country"
-          onChange={(e) => setCountry(e.target.value)}
+          onChange={(e) =>  setCountry(e.target.value)}
         />
         <button className="getweather" onClick={(e) => weatherData(e)}>
           Submit

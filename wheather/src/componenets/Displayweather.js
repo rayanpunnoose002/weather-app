@@ -2,9 +2,9 @@ import React from 'react'
 import '../componenets/Displayweather.css'
 function Displayweather(props) {
     const { data } = props;
-  if (data.name=== undefined) {
+  if (data.name === undefined) {
     alert("please a valid city name")
-    return(null)
+    return(" ")
   } else{
 
   return (
